@@ -6,13 +6,7 @@
     "name": "linux",
     "created_at": "2018-02-04T10:36:36Z",
     "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z",
-    "commits": [
-      1424,
-      1425,
-      1426,
-      1427
-    ]
+    "updated_at": "2018-06-23T08:06:37Z"
   },
   {
     "id": 143,
@@ -21,10 +15,7 @@
     "name": "2048",
     "created_at": "2018-02-04T10:36:36Z",
     "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z",
-    "commits": [
-      1428
-    ]
+    "updated_at": "2018-06-23T08:06:37Z"
   },
   {
     "id": 1755,
@@ -33,11 +24,7 @@
     "name": "bash-me",
     "created_at": "2018-02-04T10:36:36Z",
     "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z",
-    "commits": [
-      1429,
-      1431
-    ]
+    "updated_at": "2018-06-23T08:06:37Z"
   },
   {
     "id": 3634,
@@ -46,10 +33,7 @@
     "name": "flow.js",
     "created_at": "2018-02-04T10:36:36Z",
     "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z",
-    "commits": [
-      1430
-    ]
+    "updated_at": "2018-06-23T08:06:37Z"
   },
   {
     "id": 4243,
@@ -58,17 +42,7 @@
     "name": "pdf.js",
     "created_at": "2018-02-04T10:36:36Z",
     "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z",
-    "commits": [
-      1432,
-      1438,
-      1439,
-      1440,
-      1441,
-      1442,
-      1443,
-      1444
-    ]
+    "updated_at": "2018-06-23T08:06:37Z"
   },
   {
     "id": 1324,
@@ -77,12 +51,7 @@
     "name": "toml-lang",
     "created_at": "2018-02-04T10:36:36Z",
     "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z",
-    "commits": [
-      1433,
-      1446,
-      1447
-    ]
+    "updated_at": "2018-06-23T08:06:37Z"
   },
   {
     "id": 8924,
@@ -91,11 +60,7 @@
     "name": "ashtle.github.io",
     "created_at": "2018-02-04T10:36:36Z",
     "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z",
-    "commits": [
-      1434,
-      1435
-    ]
+    "updated_at": "2018-06-23T08:06:37Z"
   },
   {
     "id": 4675,
@@ -104,14 +69,7 @@
     "name": "jekyll",
     "created_at": "2018-02-04T10:36:36Z",
     "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z",
-    "commits": [
-      1436,
-      1437,
-      1448,
-      1449,
-      1450
-    ]
+    "updated_at": "2018-06-23T08:06:37Z"
   },
   {
     "id": 1324,
@@ -120,11 +78,6 @@
     "name": "gcc",
     "created_at": "2018-02-04T10:36:36Z",
     "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z",
-    "commits": [
-      1433,
-      1446,
-      1447
-    ]
+    "updated_at": "2018-06-23T08:06:37Z"
   }
 ]
