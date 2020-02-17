@@ -1,5 +1,7 @@
 # Lab 3 - DynamoDB
 
+[DynamoDB Lab Template](https://github.com/sanket143/DynamoDB-Lab): Here is the boilerplate you'll be using.
+
 Your Directory Tree
 
 ```
@@ -41,6 +43,8 @@ Your Directory Tree
 8 directories, 25 files
 ```
 
+You'll be writing all your code in `q#.py` files and are suppose to submit compressed `soln/`
+
 ## Task 1
 
 **1. Create table `Books` for <span style="color: crimson !important">data/books/books.json</span> with following inputs**
@@ -59,6 +63,8 @@ Your Directory Tree
 **6. Update pages of book <span style="color: crimson !important">Git Pocket Guide</span> published by <span style="color: crimson !important">O'Reilly Media</span> to <span style="color: crimson !important">268</span>**
 
 **7. List out book `titles` and `pages` with more than <span style="color: crimson !important">300</span> pages**
+
+[DynamoDB Reference Codes](https://github.com/sanket143/DynamoDB-Lab/wiki/DynamoDB-Reference-Codes)
 
 ---
 
@@ -105,4 +111,8 @@ $ python setup.py # will do required changes
 
 **5. Fix issues that are assigned to the users which no longer exists ( i.e unset `assignee` attribute from issues )**
 
-At last, destroy all the tables so that the successor have a cold start.
+At last, destroy all your tables so that others could have a cold start.
+
+```shell
+$ python finish.py
+```
