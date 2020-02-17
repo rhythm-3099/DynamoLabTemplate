@@ -109,7 +109,7 @@ $ python setup.py # will do required changes
 
 **2. Print contributors of the repo `pdf.js`**
 
-**3. Delete users with `0` commits. [`deleted` is an user attribute]**
+**3. Delete users with `0` commits. [`deleted` is an attribute]**
 
 **4. List commits done by the members of the `mozilla` organization**
 
