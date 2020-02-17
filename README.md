@@ -74,25 +74,15 @@ You'll be writing all your code in `q#.py` files and are suppose to submit compr
 
 **1. Create a table `WebAccessLog` for <span style="color: crimson">data/logs/web_access_log.json</span> with following constraints:**
 
-- Partition Key: `req_no`
-- Sort Key: `class` (IP Address Class)
-- Local Secondary Index: `ip_addr-index`
-  - Partition Key: `req_no`
-  - Sort Key: `ip_addr`
+- Partition Key: `ip_addr`
+- Sort Key: `req_no`
 
-| Class | Address Range |
-| ----- |:------------- |
-| Class A | `1.0.0.1` to `126.255.255.254` |
-| Class B | `128.1.0.1` to `191.255.255.254` |
-| Class C | `192.0.1.1` to `223.255.254.254` |
-| Class D | `224.0.0.0` to `239.255.255.255` |
-| Class E | `240.0.0.0` to `254.255.255.254` |
 
 **2. Write script to perform batch writes with batch size of 25 items for all log items ( i.e 201 entries )**
 
-**3. Get the IP address with most number of requests from each class**
+**3. For IP address `188.45.108.168`, count number of non `200` status requests**
 
-**4. List out all `Windows` users computers (`List of IP addresses`)**
+**4. For IP address `191.182.199.16`, give daily count of request, total size of data downloaded**
 
 ---
 
@@ -104,6 +94,28 @@ Setup Database
 ```shell
 $ python setup.py # will do required changes
 ```
+
+**Table Definitions**
+
+**Users** <br>
+- Primary Key: `email`
+
+**Repositories**
+- Partition Key: `name`
+- Sort Key: `owner`
+- Global Secondary Index: `repo_id-index`
+  - Primary Key: `repo_id`
+
+**Commits**
+- Primary Key: `project_id`
+- Sort Key: `sha`
+
+**Issues**
+- Partition Key: `title`
+- Sort Key: `repo_id`
+- Local Secondary Index: `reporter-index`
+  - Partition Key: `title`
+  - Sort Key: `reporter`
 
 **1. List all the resolved issues reported by `janet` and `drew`**
 
