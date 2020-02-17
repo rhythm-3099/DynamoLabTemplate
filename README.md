@@ -137,7 +137,7 @@ Add a new commit
   "author": "lisa",
   "message": "Resolved an issue from pdf.js",
   "project_id": 4243,
-  "timestamp": "2020-02-19T20:40:38Z"ready
+  "timestamp": "2020-02-19T20:40:38Z"
 }
 ```
 Set the issue ( `repo-id` = `4243` and `title` = `No Documentation for installation` ) as resolved
