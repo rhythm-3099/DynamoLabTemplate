@@ -14,6 +14,7 @@ Your Directory Tree
 │   │   └── users.json
 │   └── logs
 │       └── web_access_log.json
+├── finish.py
 ├── README.md
 ├── setup.py
 └── soln
@@ -31,8 +32,13 @@ Your Directory Tree
     │   ├── q3.py
     │   └── q4.py
     └── task3
+        ├── q1.py
+        ├── q2.py
+        ├── q3.py
+        ├── q4.py
+        └── q5.py
 
-8 directories, 19 files
+8 directories, 25 files
 ```
 
 ## Task 1
