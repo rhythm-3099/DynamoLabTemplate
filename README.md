@@ -88,11 +88,11 @@ You'll be writing all your code in `q#.py` files and are suppose to submit compr
 | Class D | `224.0.0.0` to `239.255.255.255` |
 | Class E | `240.0.0.0` to `254.255.255.254` |
 
-**2. Write script to perform batch writes with batch size of 25 items for all log items ( i.e 5,000 entries )**
+**2. Write script to perform batch writes with batch size of 25 items for all log items ( i.e 201 entries )**
 
 **3. Get the IP address with most number of requests from each class**
 
-**4. List out all `Chrome` users computers (`List of IP addresses`)**
+**4. List out all `Windows` users computers (`List of IP addresses`)**
 
 ---
 
