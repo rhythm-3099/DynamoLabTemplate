@@ -74,7 +74,7 @@
     "repo_id": 1111,
     "reporter": "drew",
     "assignee": "6a68",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "title": "Outdated spec implementation. \"fetch\" spec changed in 2017 - Does not lowercase headers",
@@ -91,9 +91,9 @@
   {
     "title": "In IE11 resolve is not always executed",
     "repo_id": 1324,
-    "reporter": "jimjam",
+    "reporter": "janet",
     "assignee": "6a68",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "title": "Make use of responseType=blob conditional",
@@ -111,12 +111,12 @@
     "title": "Unable to detect local GPU Resources",
     "repo_id": 4243,
     "reporter": "drew",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "title": "Add Github donate button",
     "repo_id": 1111,
-    "reporter": "jimjam",
+    "reporter": "janet",
     "assignee": "torvalds",
     "is_resolved": false
   },
@@ -130,7 +130,7 @@
   {
     "title": "The vertical writing mode with horizontal scaling is not rendered correctly",
     "repo_id": 1324,
-    "reporter": "lisa",
+    "reporter": "janet",
     "assignee": "jimjam",
     "is_resolved": false
   },
@@ -150,7 +150,6 @@
     "title": "404 page Content-Type header is broken",
     "repo_id": 4675,
     "reporter": "ritchie",
-    "assignee": "mozilla",
     "is_resolved": false
   },
   {
@@ -168,8 +167,8 @@
   {
     "title": "include tag does not allow to pass variable in hash[key] format",
     "repo_id": 8924,
-    "reporter": "jimjam",
-    "is_resolved": false
+    "reporter": "janet",
+    "is_resolved": true
   },
   {
     "title": "Configuration: Output Line Numbers for Markdown-style Code Tags",
@@ -199,7 +198,7 @@
   {
     "title": "ci: test with stable Ruby releases",
     "repo_id": 1111,
-    "reporter": "torvalds",
+    "reporter": "janet",
     "is_resolved": true
   }
 ]

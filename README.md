@@ -1,4 +1,4 @@
-# Lab 3 - DynamoDB
+# Lab 3 - Hands on DynamoDB
 
 [DynamoDB Lab Template](https://github.com/sanket143/DynamoDB-Lab): Here is the boilerplate you'll be using.
 
@@ -45,6 +45,8 @@ Your Directory Tree
 
 You'll be writing all your code in `q#.py` files and are suppose to submit compressed `soln/`
 
+<div style="page-break-after: always;"></div>
+
 ## Task 1
 
 **1. Create table `Books` for <span style="color: crimson !important">data/books/books.json</span> with following inputs**
@@ -52,17 +54,17 @@ You'll be writing all your code in `q#.py` files and are suppose to submit compr
   - Sort Key: Title
   - Global Secondary Index: ISBN
 
-**2. Add a book using putitem**
+**2. Add a book using `put item`**
 
-**3. Add all the rest of the books using batch write**
+**3. Add all the rest of the books using `batch write`**
 
 **4. Get book <span style="color: crimson !important">Learning JavaScript Design Patterns</span> published by <span style="color: crimson !important">O'Reilly Media</span>**
 
-**5. Get book with ISBN value <span style="color: crimson !important">9781491904244</span>**
+**5. Get book with ISBN number <span style="color: crimson !important">9781491904244</span>**
 
 **6. Update pages of book <span style="color: crimson !important">Git Pocket Guide</span> published by <span style="color: crimson !important">O'Reilly Media</span> to <span style="color: crimson !important">268</span>**
 
-**7. List out book `titles` and `pages` with more than <span style="color: crimson !important">300</span> pages**
+**7. List out book `titles` with `pages` with more than <span style="color: crimson !important">300</span> pages**
 
 [DynamoDB Reference Codes](https://github.com/sanket143/DynamoDB-Lab/wiki/DynamoDB-Reference-Codes)
 
@@ -86,13 +88,15 @@ You'll be writing all your code in `q#.py` files and are suppose to submit compr
 | Class D | `224.0.0.0` to `239.255.255.255` |
 | Class E | `240.0.0.0` to `254.255.255.254` |
 
-**2. Do batch writes with batche size of 25 items for all log items ( i.e 5,000 entries )**
+**2. Write script to perform batch writes with batch size of 25 items for all log items ( i.e 5,000 entries )**
 
-**3. Get the IP Address with most number of requests from each class**
+**3. Get the IP address with most number of requests from each class**
 
-**4. List out all `Chrome` Users computers (`IP Addresses`)**
+**4. List out all `Chrome` users computers (`List of IP addresses`)**
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ## Task 3
 
@@ -101,15 +105,17 @@ Setup Database
 $ python setup.py # will do required changes
 ```
 
-**1. List the resolved issues reported by user `ashtle`**
+**1. List all the resolved issues reported by `janet` and `drew`**
 
-**2. Delete users with `0` commits. [`deleted` is an user attribute]**
+**2. Print contributors of the repo `pdf.js`**
 
-**3. List commits done by the members of the `mozilla` organization**
+**3. Delete users with `0` commits. [`deleted` is an user attribute]**
 
-**4. Get `emailIds` of the users who are assigned to atleast one issue**
+**4. List commits done by the members of the `mozilla` organization**
 
-**5. Fix issues that are assigned to the users which no longer exists ( i.e unset `assignee` attribute from issues )**
+**5. Get `email ids` of the users who are assigned to atleast one issue**
+
+**6. Update issues that are assigned to the users which no longer exists ( i.e unset `assignee` attribute )**
 
 At last, destroy all your tables so that others could have a cold start.
 
