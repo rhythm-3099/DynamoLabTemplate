@@ -1,7 +1,7 @@
 [
   {
     "title": "Invalid Operator '-' on line no. 143",
-    "repo_id": 8924,
+    "repo_id": 143,
     "reporter": "6a68",
     "assignee": "ritchie",
     "is_resolved": false
@@ -20,10 +20,10 @@
   },
   {
     "title": "crimson' keyword not found",
-    "repo_id": 1324,
-    "reporter": "mozilla",
+    "repo_id": 143,
+    "reporter": "torvalds",
     "assignee": "ritchie",
-    "is_resolved": true
+    "is_resolved": false
   },
   {
     "title": "Not Compatible to go-lang",
@@ -36,7 +36,7 @@
     "repo_id": 143,
     "reporter": "drew",
     "assignee": "lisa",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "title": "Not working in windows",
@@ -144,7 +144,7 @@
     "title": "Get InternalLink Annotation destination coordinates",
     "repo_id": 143,
     "reporter": "linacambridge",
-    "is_resolved": false
+    "is_resolved": true
   },
   {
     "title": "404 page Content-Type header is broken",

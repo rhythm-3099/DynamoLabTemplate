@@ -5,8 +5,7 @@
     "owner": "torvalds",
     "name": "linux",
     "created_at": "2018-02-04T10:36:36Z",
-    "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z"
+    "deleted": false
   },
   {
     "id": 143,
@@ -14,8 +13,7 @@
     "owner": "janet",
     "name": "2048",
     "created_at": "2018-02-04T10:36:36Z",
-    "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z"
+    "deleted": false
   },
   {
     "id": 1755,
@@ -23,8 +21,7 @@
     "owner": "lisa",
     "name": "bash-me",
     "created_at": "2018-02-04T10:36:36Z",
-    "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z"
+    "deleted": false
   },
   {
     "id": 3634,
@@ -32,8 +29,7 @@
     "owner": "lisa",
     "name": "flow.js",
     "created_at": "2018-02-04T10:36:36Z",
-    "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z"
+    "deleted": false
   },
   {
     "id": 4243,
@@ -41,8 +37,7 @@
     "owner": "mozilla",
     "name": "pdf.js",
     "created_at": "2018-02-04T10:36:36Z",
-    "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z"
+    "deleted": false
   },
   {
     "id": 1324,
@@ -50,8 +45,7 @@
     "owner": "github",
     "name": "toml-lang",
     "created_at": "2018-02-04T10:36:36Z",
-    "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z"
+    "deleted": false
   },
   {
     "id": 8924,
@@ -59,8 +53,7 @@
     "owner": "ashtle",
     "name": "ashtle.github.io",
     "created_at": "2018-02-04T10:36:36Z",
-    "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z"
+    "deleted": false
   },
   {
     "id": 4675,
@@ -68,8 +61,7 @@
     "owner": "github",
     "name": "jekyll",
     "created_at": "2018-02-04T10:36:36Z",
-    "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z"
+    "deleted": false
   },
   {
     "id": 1324,
@@ -77,7 +69,6 @@
     "owner": "ritchie",
     "name": "gcc",
     "created_at": "2018-02-04T10:36:36Z",
-    "deleted": false,
-    "updated_at": "2018-06-23T08:06:37Z"
+    "deleted": false
   }
 ]
