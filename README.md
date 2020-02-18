@@ -45,6 +45,11 @@ Your Directory Tree
 8 directories, 25 files
 ```
 
+Here you have three tasks!
+
+In each task you are given a set of data files.
+<span style="color: crimson !important">Before proceeding, understand structure of respective data files</span>
+
 You'll be writing all your code in `q#.py` files and are suppose to submit compressed `soln/`
 
 <div style="page-break-after: always;"></div>
@@ -82,15 +87,20 @@ You'll be writing all your code in `q#.py` files and are suppose to submit compr
 
 **2. Write script to perform batch writes with batch size of 25 items for all log items ( i.e 201 entries )**
 
-**3. For IP address `188.45.108.168`, count number of non `200` status requests**
+**3. For IP address `188.45.108.168`, give count of requests that have not returned status `200`**
 
-**4. For IP address `191.182.199.16`, give daily count of request, total size of data downloaded**
+**4. For IP address `191.182.199.16`, give daily count of requests, and daily total data (size) downloaded**
 
 ---
 
 <div style="page-break-after: always;"></div>
 
 ## Task 3
+
+Here you are given a set of data files: Users, Repositories, Commits, Issues
+under the directory [data/devhub]!
+
+For creating required tables, you have been given a python script setup.py; you can run the script for creating all the required table. Schema information of tables is also given here for your information.
 
 Setup Database
 ```shell
