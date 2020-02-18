@@ -197,44 +197,22 @@ def create_commits():
     TableName='Commits',
     KeySchema=[
       {
-          'AttributeName': 'sha',
+          'AttributeName': 'project_id',
           'KeyType': 'HASH'
       },
       {
-          'AttributeName': 'project_id',
+          'AttributeName': 'sha',
           'KeyType': 'RANGE'
       }
     ],
     AttributeDefinitions=[
       {
-          'AttributeName': 'sha',
-          'AttributeType': 'S'
-      },
-      {
           'AttributeName': 'project_id',
           'AttributeType': 'N'
       },
       {
-          'AttributeName': 'id',
-          'AttributeType': 'N'
-      }
-    ],
-    GlobalSecondaryIndexes=[
-      {
-        'IndexName': 'id-index',
-        'KeySchema': [
-          {
-            'KeyType': 'HASH',
-            'AttributeName': 'id'
-          }
-        ],
-        'Projection': {
-          'ProjectionType': 'ALL'
-        },
-        'ProvisionedThroughput': {
-          'ReadCapacityUnits': 10,
-          'WriteCapacityUnits': 10
-        }
+          'AttributeName': 'sha',
+          'AttributeType': 'S'
       }
     ],
     ProvisionedThroughput={
