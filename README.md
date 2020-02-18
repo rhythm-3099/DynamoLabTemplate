@@ -47,7 +47,8 @@ Your Directory Tree
 
 Here you have three tasks!
 
-In each task you are given a set of data files. <span style="color: crimson !important">Before proceeding, understand structure of data file</span>
+In each task you are given a set of data files.
+<span style="color: crimson !important">Before proceeding, understand structure of respective data files</span>
 
 You'll be writing all your code in `q#.py` files and are suppose to submit compressed `soln/`
 
@@ -88,7 +89,7 @@ You'll be writing all your code in `q#.py` files and are suppose to submit compr
 
 **3. For IP address `188.45.108.168`, give count of requests that have not returned status `200`**
 
-**4. For IP address `191.182.199.16`, give daily count of requests, and total size of data downloaded**
+**4. For IP address `191.182.199.16`, give daily count of requests, and daily total data (size) downloaded**
 
 ---
 
